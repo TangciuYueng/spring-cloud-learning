@@ -25,7 +25,7 @@ public class OrderService {
     final private WebClient.Builder webClientBuilder;
     // multi-table operation
     @Transactional
-    public void placeOrder(OrderRequest orderRequest) {
+    public String placeOrder(OrderRequest orderRequest) {
         Order order = new Order();
         order.setOrderNumber(UUID.randomUUID().toString());
         List<OrderLineItems> orderLineItems = orderRequest.getOrderLineItemsDtoList()
@@ -53,6 +53,7 @@ public class OrderService {
         if (allProductsInStock ) {
             orderMapper.insertOrder(order);
             orderLineItemsMapper.insertOrderLineItems(order.getId(), order.getOrderLineItemsList());
+            return "Order Placed Successfully";
         } else {
             throw new IllegalArgumentException("Product is not in stock, please try again later");
         }
