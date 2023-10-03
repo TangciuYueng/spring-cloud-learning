@@ -1,0 +1,11 @@
+E:\JAVAWorkDirectory\spring-boot-microservice-new\order-service\src\main\java\com\aaabbb\orderservice\contorller\OrderController.java
+E:\JAVAWorkDirectory\spring-boot-microservice-new\order-service\src\main\java\com\aaabbb\orderservice\service\OrderService.java
+E:\JAVAWorkDirectory\spring-boot-microservice-new\order-service\src\main\java\com\aaabbb\orderservice\dto\OrderLineItemsDto.java
+E:\JAVAWorkDirectory\spring-boot-microservice-new\order-service\src\main\java\com\aaabbb\orderservice\mapper\OrderLineItemsMapper.java
+E:\JAVAWorkDirectory\spring-boot-microservice-new\order-service\src\main\java\com\aaabbb\orderservice\model\Order.java
+E:\JAVAWorkDirectory\spring-boot-microservice-new\order-service\src\main\java\com\aaabbb\orderservice\dto\InventoryResponse.java
+E:\JAVAWorkDirectory\spring-boot-microservice-new\order-service\src\main\java\com\aaabbb\orderservice\mapper\OrderMapper.java
+E:\JAVAWorkDirectory\spring-boot-microservice-new\order-service\src\main\java\com\aaabbb\orderservice\model\OrderLineItems.java
+E:\JAVAWorkDirectory\spring-boot-microservice-new\order-service\src\main\java\com\aaabbb\orderservice\config\WebClientConfig.java
+E:\JAVAWorkDirectory\spring-boot-microservice-new\order-service\src\main\java\com\aaabbb\orderservice\dto\OrderRequest.java
+E:\JAVAWorkDirectory\spring-boot-microservice-new\order-service\src\main\java\com\aaabbb\orderservice\OrderServiceApplication.java

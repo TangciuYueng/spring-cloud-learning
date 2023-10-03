@@ -1,0 +1,12 @@
+com\aaabbb\orderservice\contorller\OrderController.class
+com\aaabbb\orderservice\dto\InventoryResponse$InventoryResponseBuilder.class
+com\aaabbb\orderservice\mapper\OrderLineItemsMapper.class
+com\aaabbb\orderservice\model\Order.class
+com\aaabbb\orderservice\OrderServiceApplication.class
+com\aaabbb\orderservice\dto\InventoryResponse.class
+com\aaabbb\orderservice\dto\OrderRequest.class
+com\aaabbb\orderservice\dto\OrderLineItemsDto.class
+com\aaabbb\orderservice\service\OrderService.class
+com\aaabbb\orderservice\config\WebClientConfig.class
+com\aaabbb\orderservice\mapper\OrderMapper.class
+com\aaabbb\orderservice\model\OrderLineItems.class

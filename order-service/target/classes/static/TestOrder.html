@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Place Order</title>
+</head>
+<body>
+<button id="placeOrderBtn">Place Order</button>
+<script>
+    document.getElementById("placeOrderBtn").addEventListener("click", function() {
+        var orderRequest = {
+            "orderLineItemsDtoList": [
+                {
+                    "skuCode": "SKU003",
+                    "price": 19.0,
+                    "quantity": 2
+                },
+                {
+                    "skuCode": "SKU004",
+                    "price": 90.0,
+                    "quantity": 5
+                }
+            ]
+        };
+        fetch("http://localhost:8081/api/order", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(orderRequest)
+        })
+        .then(response => response.text())
+        .then(data => {
+            alert(data);
+        })
+        .catch(error => {
+            alert("Error: " + error);
+        });
+    });
+</script>
+</body>
+</html>

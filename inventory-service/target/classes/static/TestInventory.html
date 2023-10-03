@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Check Inventory</title>
+</head>
+<body>
+<h1>Check Inventory</h1>
+<button onclick="checkInventory()">Check</button>
+<script>
+    function checkInventory() {
+      fetch('/api/inventory/SKU001')
+        .then(response => response.json())
+        .then(data => {
+            console.log(data);
+            alert(data);
+        })
+        .catch(error => console.error(error));
+    }
+</script>
+</body>
+</html>
